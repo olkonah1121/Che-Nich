@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Quicksand&display=swap');
+
+:root {
+    --main-color: #00008B;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+
+h1, h2, p, section, header, main,
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+#logo a {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center
+    color: var(--main-color)}
+ #logo {
+     text-align: center;
+ }    
+
+ header nav .menu {
+    display: flex;
+    flex: 1;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-around;
+ }
+header nav .menu a {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: var(--main-color);
+      border: 2px solid transparent;
+      padding: 5px;
+       
+}
+ header nav .menu a:hover {
+    border: 2px solid var(--main-color);
+}
+@media (min-width: 800px) {
+    header  {
+        display: flex;
+        align-items: center;
+    justify-content: center ;}    
+    }
+}  
+header section  {
+    background-image: url(../img/ivent.jpg);
+}
