@@ -20,17 +20,16 @@ footer {
 header nav .logo  {
     font-family: 'Lobster', cursive;
     font-size: 3rem;
-   
     text-transform: uppercase;
     color: var(--main-color);
     text-decoration: none palevioletred ;
-     }
+ }
+
 header nav .logo a {
      text-align: left;
     text-transform: uppercase;
     text-decoration: none;
-
-     }
+ }
  
  header nav .menu {
     display: flex;
@@ -38,23 +37,25 @@ header nav .logo a {
     padding: 0;
     list-style-type: none;
     justify-content: space-around;
-   
  }
+
  header nav .menu a {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--main-color);
     border: 1px solid transparent;
     padding: 5px;
-    
 }
+
 header nav .menu a:hover {
     border: 1px solid var(--main-color);
 }
+
 @media (min-width: 800px) {
     header nav {
         display: flex;
     }
+}
 header section {
     background-image: url(../img/ivent.jpg);
     min-height: 600px;
@@ -65,8 +66,8 @@ header section {
     flex-direction: column;
     justify-content: flex-start;
 }
+
 header section h1 {
     font-family: 'Lobster', cursive;
         color: var(--main-color);
-      
 }    
