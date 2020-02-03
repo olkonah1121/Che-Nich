@@ -20,10 +20,16 @@ footer {
 header nav .logo  {
     font-family: 'Lobster', cursive;
     font-size: 3rem;
-    text-align: center;
+   
     text-transform: uppercase;
     color: var(--main-color);
+    text-decoration: none palevioletred ;
+     }
+header nav .logo a {
+     text-align: left;
+    text-transform: uppercase;
     text-decoration: none;
+
      }
  
  header nav .menu {
@@ -49,13 +55,18 @@ header nav .menu a:hover {
     header nav {
         display: flex;
     }
-    header section {
+header section {
     background-image: url(../img/ivent.jpg);
-    min-height: 900px;
+    min-height: 600px;
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
+    justify-content: flex-start;
 }
+header section h1 {
+    font-family: 'Lobster', cursive;
+        color: var(--main-color);
+      
+}    
